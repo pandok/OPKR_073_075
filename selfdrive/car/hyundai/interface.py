@@ -62,7 +62,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerRatio = 12.0
       ret.mass = 1830. + STD_CARGO_KG
       ret.wheelbase = 2.765
@@ -71,7 +71,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerActuatorDelay = 0.08
       ret.steerLimitTimer = 0.4
       ret.steerRateCost = 1.0
@@ -83,7 +83,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerActuatorDelay = 0.08 # Stinger GT Limited AWD 3.3T stock value (Tunder's 2020) 
       ret.steerLimitTimer = 0.4 # stock is 0.01 but 0.04 seems to work well
       ret.steerRateCost = 1.0
@@ -95,7 +95,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerActuatorDelay = 0.08 # Stinger GT Limited AWD 3.3T stock value (Tunder's 2020) 
       ret.steerLimitTimer = 0.4 # stock is 0.01 but 0.04 seems to work well
       ret.steerRateCost = 1.0
@@ -107,7 +107,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1470. + STD_CARGO_KG
       ret.wheelbase = 2.80
       ret.steerRatio = 12.0
@@ -116,7 +116,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerActuatorDelay = 0.08
       ret.steerLimitTimer = 0.4
       ret.steerRateCost = 1.0
@@ -128,7 +128,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1595. + STD_CARGO_KG
       ret.wheelbase = 2.80
       ret.steerRatio = 12.0
@@ -137,7 +137,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1570. + STD_CARGO_KG
       ret.wheelbase = 2.885
       ret.steerRatio = 12.0
@@ -146,7 +146,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1675. + STD_CARGO_KG
       ret.wheelbase = 2.885
       ret.steerRatio = 12.0
@@ -155,7 +155,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerActuatorDelay = 0.08 # Stinger GT Limited AWD 3.3T stock value (Tunder's 2020) 
       ret.steerLimitTimer = 0.4 # stock is 0.01 but 0.04 seems to work well
       tire_stiffness_factor = 0.5 # LiveParameters (Tunder's 2020)
@@ -168,7 +168,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1330. + STD_CARGO_KG
       ret.wheelbase = 2.6
       ret.steerRatio = 13.5   #Spec
@@ -178,7 +178,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1330. + STD_CARGO_KG
       ret.wheelbase = 2.6
       ret.steerRatio = 13.5   #Spec
@@ -188,7 +188,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1330. + STD_CARGO_KG
       ret.wheelbase = 2.6
       ret.steerRatio = 13.5   #Spec
@@ -198,7 +198,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1275. + STD_CARGO_KG
       ret.wheelbase = 2.7
       ret.steerRatio = 13.5   #Spec
@@ -208,7 +208,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1490. + STD_CARGO_KG   #weight per hyundai site https://www.hyundaiusa.com/ioniq-electric/specifications.aspx
       ret.wheelbase = 2.7
       ret.steerRatio = 13.25   #Spec
@@ -217,7 +217,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1885. + STD_CARGO_KG
       ret.wheelbase = 2.79
       ret.steerRatio = 12.5
@@ -226,7 +226,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0 #3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0 #2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.5 #1.5
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.steerActuatorDelay = 0.08
       ret.steerLimitTimer = 0.4
       tire_stiffness_factor = 0.6
