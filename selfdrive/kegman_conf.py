@@ -146,7 +146,7 @@ class kegman_conf():
         self.write_config(self.config)
 
     else:
-      self.config = {"cameraOffset":"0.06", "battChargeMin":"70", "battChargeMax":"80", \
+      self.config = {"cameraOffset":"0.06", "battChargeMin":"60", "battChargeMax":"70", \
                     "wheelTouchSeconds":"30000", "battPercOff":"10", "carVoltageMinEonShutdown":"11800", \
                     "tuneGernby":"1", "deadzone":"10.0", "steerMax":"255", \
                     "cv_Ratio":"0.7", "cv_Dist":"-5", "steerTorqueOver":"200", \
