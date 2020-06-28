@@ -85,7 +85,7 @@ class kegman_conf():
         self.element_updated = True
 
       if "deltaDown" not in self.config:
-        self.config.update({"deltaDown":"7"})
+        self.config.update({"deltaDown":"3"})
         self.element_updated = True
 	
       if "leadDistance" not in self.config:
@@ -125,7 +125,7 @@ class kegman_conf():
         self.element_updated = True
 
       if "ALCnudgeLess" not in self.config:
-        self.config.update({"ALCnudgeLess":"1"})
+        self.config.update({"ALCnudgeLess":"0"})
         self.config.update({"ALCminSpeed":"16.666667"})
         self.element_updated = True
 
@@ -156,7 +156,7 @@ class kegman_conf():
                      "1barHwy":"0.4", "2barHwy":"0.3", "3barHwy":"0.1", \
                      "steerRatio":"-1", "steerRateCost":"-1", "slowOnCurves":"0", \
                      "sR_boost":"0", "sR_BP0":"0", "sR_BP1":"0", "sR_time":"0.2", \
-                     "ALCnudgeLess":"1", "ALCminSpeed":"16.666667", "ALCtimer":"1.0", "CruiseDelta":"8", \
+                     "ALCnudgeLess":"0", "ALCminSpeed":"16.666667", "ALCtimer":"1.0", "CruiseDelta":"8", \
                      "CruiseEnableMin":"0"}
 
 
