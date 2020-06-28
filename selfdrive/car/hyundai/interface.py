@@ -62,7 +62,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1425. + STD_CARGO_KG
       ret.wheelbase = 2.7
       ret.steerRatio = 13.73   #Spec
@@ -72,7 +72,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.5
       ret.lateralTuning.indi.outerLoopGain = 2.5
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       ret.mass = 1425. + STD_CARGO_KG
       ret.wheelbase = 2.7
       ret.steerRatio = 13.73   #Spec
