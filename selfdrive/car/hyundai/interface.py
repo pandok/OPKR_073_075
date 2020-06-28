@@ -95,7 +95,7 @@ class CarInterface(CarInterfaceBase):
       ret.steerRatio = 13.73   #Spec
       tire_stiffness_factor = 0.385
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[9., 22.], [9., 22.]]   # 9m/s = 32.4km/h  ~  22m/s = 79.2 km/h
-      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.18,0.20], [0.02,0.05]]
+      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.1,0.11], [0.02,0.05]]
     elif candidate == CAR.NIRO_EV:
       ret.lateralTuning.pid.kf = 0.00005
       ret.mass = 1425. + STD_CARGO_KG
@@ -103,7 +103,7 @@ class CarInterface(CarInterfaceBase):
       ret.steerRatio = 13.73   #Spec
       tire_stiffness_factor = 0.385
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[9., 22.], [9., 22.]]   # 9m/s = 32.4km/h  ~  22m/s = 79.2 km/h
-      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.18,0.20], [0.02,0.05]]
+      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.1,0.11], [0.02,0.05]]
 
     ret.minEnableSpeed = -1.   # enable is done by stock ACC, so ignore this
 
