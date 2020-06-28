@@ -133,7 +133,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.indi.innerLoopGain = 3.0
       ret.lateralTuning.indi.outerLoopGain = 2.0
       ret.lateralTuning.indi.timeConstant = 1.0
-      ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+      ret.lateralTuning.indi.actuatorEffectiveness = 0.1
       # initial engage unkown - copied from Volt. Stop and go unknown.
       ret.minEnableSpeed = -1.
       ret.mass = 1616. + STD_CARGO_KG
