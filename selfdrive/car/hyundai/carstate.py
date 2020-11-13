@@ -352,7 +352,7 @@ class CarState():
 
     self.prev_VSetDis = 30
 
-    self.cruise_set_mode = 0
+    self.cruise_set_mode = 2
 
     self.driverAcc_time = 0
 
@@ -410,9 +410,9 @@ class CarState():
       cruise_set_speed_kph = self.VSetDis
       if self.prev_clu_CruiseSwState != self.clu_CruiseSwState:
         if self.clu_CruiseSwState == 4:
-          self.cruise_set_mode += 1
+          self.cruise_set_mode += 2
           if self.cruise_set_mode > 2:
-            self.cruise_set_mode = 0
+            self.cruise_set_mode = 2
         self.prev_clu_CruiseSwState = self.clu_CruiseSwState
       
     trace1.cruise_set_mode = self.cruise_set_mode
